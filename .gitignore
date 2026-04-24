@@ -1,3 +1,18 @@
-Since the only file change is the addition of `.gitignore` itself and there are no other files listed that need to be ignored, the output is empty.
+```
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-Nothing should be added to the .gitignore file based on the provided changes.
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Original rules preserved
+*.log
+```
